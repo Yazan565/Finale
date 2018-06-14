@@ -24,7 +24,7 @@ public class Information {
 
   public static String printMoney (double money) {
     String pM = String.format ("$%.2f", money);
-    System.out.println("Current Money output is " + pM);
+    System.out.println("Cost of Good(s) is " + pM);
     return pM;
   }
 

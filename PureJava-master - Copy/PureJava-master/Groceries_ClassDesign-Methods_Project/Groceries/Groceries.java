@@ -127,7 +127,7 @@ public class Groceries {
   System.out.println(oranges1); //Console Apple Order
   System.out.println("The total bill for Oranges is: " + Information.printMoney(oranges1.getTotalCost() ) );
   double length = Information.chocolateBoxLength;
-  Chocolate chocolate1 = new Chocolate (orangeNumber, length);
+  Chocolate chocolate1 = new Chocolate (chocolateNumber, length);
   System.out.println(chocolate1);
   System.out.println("The total bill for Chocolates is: " + Information.printMoney(chocolate1.getTotalCost() ) );
 
